@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5AD1201E12553D00CF366E /* textBranchone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AD11F1E12553D00CF366E /* textBranchone.swift */; };
 		7BE76DEF1D9B9B3C0093EB39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE76DEE1D9B9B3C0093EB39 /* AppDelegate.swift */; };
 		7BE76DF41D9B9B3C0093EB39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BE76DF21D9B9B3C0093EB39 /* Main.storyboard */; };
 		7BE76DF61D9B9B3C0093EB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE76DF51D9B9B3C0093EB39 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B5AD11F1E12553D00CF366E /* textBranchone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = textBranchone.swift; sourceTree = "<group>"; };
 		7BE76DEB1D9B9B3C0093EB39 /* DYZBtext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZBtext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE76DEE1D9B9B3C0093EB39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BE76DF31D9B9B3C0093EB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				7BE76E1F1D9B9D660093EB39 /* class */,
 				7BE76DEE1D9B9B3C0093EB39 /* AppDelegate.swift */,
+				7B5AD11F1E12553D00CF366E /* textBranchone.swift */,
 				7BE76DF51D9B9B3C0093EB39 /* Assets.xcassets */,
 				7BE76DF71D9B9B3C0093EB39 /* LaunchScreen.storyboard */,
 				7BE76DFA1D9B9B3C0093EB39 /* Info.plist */,
@@ -455,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BE76DEF1D9B9B3C0093EB39 /* AppDelegate.swift in Sources */,
+				7B5AD1201E12553D00CF366E /* textBranchone.swift in Sources */,
 				7BE76E461D9BC1BF0093EB39 /* UIBarButtonItem-extension.swift in Sources */,
 				7BE76E431D9BB8380093EB39 /* homeViewController.swift in Sources */,
 				7BE76E411D9BB6A60093EB39 /* MainViewController.swift in Sources */,
@@ -718,6 +722,7 @@
 				7BE76E151D9B9B3C0093EB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BE76E161D9B9B3C0093EB39 /* Build configuration list for PBXNativeTarget "DYZBtextTests" */ = {
 			isa = XCConfigurationList;
@@ -726,6 +731,7 @@
 				7BE76E181D9B9B3C0093EB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BE76E191D9B9B3C0093EB39 /* Build configuration list for PBXNativeTarget "DYZBtextUITests" */ = {
 			isa = XCConfigurationList;
@@ -734,6 +740,7 @@
 				7BE76E1B1D9B9B3C0093EB39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
